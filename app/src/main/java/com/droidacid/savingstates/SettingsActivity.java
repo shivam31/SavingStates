@@ -1,0 +1,19 @@
+package com.droidacid.savingstates;
+
+import android.os.Bundle;
+import android.preference.PreferenceActivity;
+
+/**
+ * Created by shivam.chopra on 05-02-2015.
+ */
+public class SettingsActivity extends PreferenceActivity {
+
+    @SuppressWarnings("deprecation")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        // Define the xml file used for preferences
+        addPreferencesFromResource(R.xml.preferences);
+    }
+}

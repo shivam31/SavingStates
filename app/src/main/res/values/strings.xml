@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SavingState</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="notesEditText">Enter notes</string>
+    <string name="notesTextView">Notes</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="make_text_bold_pref">Make Text Bold</string>
+    <string name="pref_text_bold_summary">Makes the note text bold</string>
+    <string name="pref_text_size">Text Size</string>
+    <string name="pref_text_size_summ">Pick Text size</string>
+
+</resources>
